@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Brightspace LU widescreen
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@homepageURL    https://github.com/burgerga/userstyles/wide-lu-brightspace
+@updateURL      https://github.com/burgerga/userstyles/wide-lu-brightspace/wide-lu-brightspace.user.css
+@description    Removes rediculous hardcoded max width for the content container
+@license        CC-BY-4.0
+@author         Gerhard Burger
+==/UserStyle== */
+
+@-moz-document domain("brightspace.universiteitleiden.nl"), domain("brightspace.com") {
+    html[stylus-iframe*="brightspace.universiteitleiden.nl"] 
+    #app #root-wrapper {
+        max-width: 100% !important;
+    }
+}
